@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="js/main.js"></script>
+    <style>
+        .marco {
+            margin: 0 auto;
+            height: 500px;
+            width: 500px;
+        }
+        .imagen {
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .miniatura {
+            height: 100px;
+            width: 100px;
+        }
+
+        .miniaturas {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <figure class="marco">
+        <img id="principal" class="imagen" src="./img/foto1.jpg" alt="">
+    </figure>
+
+    <div class="miniaturas">
+        <img id="uno" class="miniatura" src="./img/foto1.jpg" alt="">
+        <img id="dos" class="miniatura" src="./img/foto2.jpg" alt="">
+        <img id="tres" class="miniatura" src="./img/foto3.jpg" alt="">
+    </div>
+
+
+
+    
+</body>
+</html>
